@@ -2,6 +2,7 @@ import React from "react";
 import Container from "./Container";
 import Image from "next/image";
 import { navdata } from "@/api/navdata";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -114,8 +115,8 @@ const Header = () => {
             <div>
               <ul className="flex items-center font-outfit text-text">
                 {navdata?.map((item) => (
-                  <li className="px-5 py-2.5 text-base font-medium text-white rounded-full transition-all duration-300 ease-in-out hover:bg-white hover:text-primary hover:shadow-lg" key={item.id}>
-                    <a href={item.url}>{item.name}</a>
+                  <li key={item.id}>
+                    <Link  className="px-5 py-2.5 text-base font-medium text-white rounded-full transition-all duration-300 ease-in-out hover:bg-white hover:text-primary hover:shadow-lg" href={item.url}>{item.name}</Link>
                   </li>
                 ))}
               </ul>
