@@ -13,7 +13,7 @@ const inter = Inter({
 
 export const metadata = {
   title: "Nir&Aru",
-  description: "Nir&Aru - Your trusted partner for innovative solutions",
+  description: "Nir&Aru - Trusted partner for innovative solutions",
   icons: {
     icon: "/favicon.png",
   },

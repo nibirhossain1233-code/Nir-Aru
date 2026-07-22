@@ -36,7 +36,7 @@ const Hero = () => {
                 </Link>
 
                 <Link
-                  className="w-full sm:w-auto text-center px-8 py-4 rounded-full hover:bg-white border border-text hover:text-primary text-text font-inter duration-300 ease-in-out font-semibold text-[16px]"
+                  className="w-full sm:w-auto text-center px-8 py-4 rounded-full hover:bg-white border active:bg-white border-text hover:text-primary active:text-primary text-text font-inter duration-300 ease-in-out font-semibold text-[16px]"
                   href="/memories"
                 >
                   📸 Memories
