@@ -29,7 +29,7 @@ const Hero = () => {
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start mt-8 gap-4 sm:gap-6">
 
                 <Link
-                  className="w-full sm:w-auto text-center px-8 py-4 rounded-full hover:bg-white border border-text hover:text-primary text-text font-inter duration-300 ease-in-out font-semibold text-[16px]"
+                  className="w-full sm:w-auto text-center px-8 py-4 rounded-full hover:bg-white border active:bg-white border-text hover:text-primary active:text-primary text-text font-inter duration-300 ease-in-out font-semibold text-[16px]"
                   href="/our-story"
                 >
                   🩷 Our Story
@@ -50,7 +50,7 @@ const Hero = () => {
             <div className="bg-secondary rounded-[30px] p-1 shadow-[0_30px_70px_rgba(0,0,0,0.18)] rotate-3 w-fit">
 
               <Image
-                className="rounded-[30px] w-[260px] sm:w-[320px] lg:w-[349px] h-auto"
+                className="rounded-[30px] w-65 sm:w-[320px] lg:w-87.25 h-auto"
                 src="/images/home/hero.jpg"
                 width={349}
                 height={620}

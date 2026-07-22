@@ -67,9 +67,9 @@ const Counter = () => {
   return (
     <section className="mt-10 lg:mt-12.5">
       <Container>
-        <div className="w-full text-center rounded-[32px] lg:rounded-[48px] border border-white/10 bg-white/5 backdrop-blur-md p-5 lg:p-6">
+        <div className="w-full text-center rounded-4xl lg:rounded-[48px] border border-white/10 bg-white/5 backdrop-blur-md p-5 lg:p-6">
 
-          <h2 className="text-text font-medium font-inter text-2xl lg:text-3xl">
+          <h2 className="text-text font-medium font-inter text-[20px] lg:text-3xl">
             <span className="inline-block -rotate-15">♥️</span>{" "}
             Every Second Matters{" "}
             <span className="inline-block rotate-15">♥️</span>
