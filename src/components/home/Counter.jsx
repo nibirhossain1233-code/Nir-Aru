@@ -65,51 +65,52 @@ const Counter = () => {
   }, []);
 
   return (
-    <section className="mt-12.5">
+    <section className="mt-10 lg:mt-12.5">
       <Container>
-        <div className="w-full text-center rounded-[48px] border border-white/10 bg-white/5 backdrop-blur-md p-6">
-          <h2 className="text-text font-medium font-inter text-3xl">
-            <span className="inline-block -rotate-15">♥️</span>
-            {" "}Every Second Matters{" "}
+        <div className="w-full text-center rounded-[32px] lg:rounded-[48px] border border-white/10 bg-white/5 backdrop-blur-md p-5 lg:p-6">
+
+          <h2 className="text-text font-medium font-inter text-2xl lg:text-3xl">
+            <span className="inline-block -rotate-15">♥️</span>{" "}
+            Every Second Matters{" "}
             <span className="inline-block rotate-15">♥️</span>
           </h2>
 
-          <div className="flex items-center justify-between mt-10">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-8 mt-8 lg:mt-10">
 
             {/* Years */}
-            <div className="w-70 h-50 rounded-4xl border border-white/20 bg-white/10 backdrop-blur-xl shadow-[0_10px_40px_rgba(0,0,0,0.12)] flex flex-col justify-around items-center">
-              <span className="text-3xl">📆</span>
-              <span className="text-6xl">
+            <div className="h-44 lg:h-50 rounded-3xl lg:rounded-4xl border border-white/20 bg-white/10 backdrop-blur-xl shadow-[0_10px_40px_rgba(0,0,0,0.12)] flex flex-col justify-around items-center">
+              <span className="text-2xl lg:text-3xl">📆</span>
+              <span className="text-4xl lg:text-6xl font-semibold">
                 {String(time.years).padStart(2, "0")}
               </span>
-              <span className="text-2xl">Years</span>
+              <span className="text-lg lg:text-2xl">Years</span>
             </div>
 
             {/* Months */}
-            <div className="w-70 h-50 rounded-4xl border border-white/20 bg-white/10 backdrop-blur-xl shadow-[0_10px_40px_rgba(0,0,0,0.12)] flex flex-col justify-around items-center">
-              <span className="text-3xl">💌</span>
-              <span className="text-6xl">
+            <div className="h-44 lg:h-50 rounded-3xl lg:rounded-4xl border border-white/20 bg-white/10 backdrop-blur-xl shadow-[0_10px_40px_rgba(0,0,0,0.12)] flex flex-col justify-around items-center">
+              <span className="text-2xl lg:text-3xl">💌</span>
+              <span className="text-4xl lg:text-6xl font-semibold">
                 {String(time.months).padStart(2, "0")}
               </span>
-              <span className="text-2xl">Months</span>
+              <span className="text-lg lg:text-2xl">Months</span>
             </div>
 
             {/* Days */}
-            <div className="w-70 h-50 rounded-4xl border border-white/20 bg-white/10 backdrop-blur-xl shadow-[0_10px_40px_rgba(0,0,0,0.12)] flex flex-col justify-around items-center">
-              <span className="text-3xl">🕛</span>
-              <span className="text-6xl">
+            <div className="h-44 lg:h-50 rounded-3xl lg:rounded-4xl border border-white/20 bg-white/10 backdrop-blur-xl shadow-[0_10px_40px_rgba(0,0,0,0.12)] flex flex-col justify-around items-center">
+              <span className="text-2xl lg:text-3xl">🕛</span>
+              <span className="text-4xl lg:text-6xl font-semibold">
                 {String(time.days).padStart(2, "0")}
               </span>
-              <span className="text-2xl">Days</span>
+              <span className="text-lg lg:text-2xl">Days</span>
             </div>
 
             {/* Hours */}
-            <div className="w-70 h-50 rounded-4xl border border-white/20 bg-white/10 backdrop-blur-xl shadow-[0_10px_40px_rgba(0,0,0,0.12)] flex flex-col justify-around items-center">
-              <span className="text-3xl">🕒</span>
-              <span className="text-6xl">
+            <div className="h-44 lg:h-50 rounded-3xl lg:rounded-4xl border border-white/20 bg-white/10 backdrop-blur-xl shadow-[0_10px_40px_rgba(0,0,0,0.12)] flex flex-col justify-around items-center">
+              <span className="text-2xl lg:text-3xl">🕒</span>
+              <span className="text-4xl lg:text-6xl font-semibold">
                 {String(time.hours).padStart(2, "0")}
               </span>
-              <span className="text-2xl">Hours</span>
+              <span className="text-lg lg:text-2xl">Hours</span>
             </div>
 
           </div>
