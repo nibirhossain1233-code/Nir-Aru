@@ -16,7 +16,8 @@ const Header = () => {
         <Container>
           <div className="flex items-center justify-between h-20 px-6 lg:px-8 rounded-3xl border border-white/20 bg-primary/10 backdrop-blur-xl shadow-[0_8px_32px_rgba(0,0,0,0.12)] absolute left-1/2 -translate-x-1/2 w-[95%] lg:w-300 mt-6 z-50">
             <div>
-              <svg
+              <Link href="/">
+                <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 600 170"
                 width="150px"
@@ -116,6 +117,7 @@ const Header = () => {
                   />
                 </g>
               </svg>
+              </Link>
             </div>
 
             {/* Desktop Menu */}

@@ -1,11 +1,13 @@
+import Footer from "@/components/ui/Footer";
 import Header from "@/components/ui/Header";
-import React, { Children } from "react";
 
-const layout = ({children}) => {
-  return <div>
-    <Header/>
-    {children}
-    </div>;
+const layout = ({ children }) => {
+  return (
+    <div>
+      <Header />
+      {children}
+    </div>
+  );
 };
 
 export default layout;
